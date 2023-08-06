@@ -1,0 +1,144 @@
+[NEAT]
+# Fitness criterion used to select the best genomes.
+fitness_criterion = max
+
+# The threshold value for fitness above which the evolution will terminate.
+fitness_threshold = 100
+
+# The number of individuals in each population (generation).
+pop_size = 100
+
+# If True, the population will not be reset after extinction, allowing new innovations.
+reset_on_extinction = False
+
+[DefaultGenome]
+# Activation function used for nodes by default.
+activation_default = tanh
+
+# Probability of mutating the activation function of a node.
+activation_mutate_rate = 0.0
+
+# Available options for the activation function mutation.
+activation_options = tanh
+
+# Aggregation function used for nodes by default.
+aggregation_default = sum
+
+# Probability of mutating the aggregation function of a node.
+aggregation_mutate_rate = 0.0
+
+# Available options for the aggregation function mutation.
+aggregation_options = sum
+
+# Initial mean value for bias in nodes.
+bias_init_mean = 0.0
+
+# Initial standard deviation value for bias in nodes.
+bias_init_stdev = 1.0
+
+# Maximum and minimum allowable values for bias in nodes.
+bias_max_value = 30.0
+bias_min_value = -30.0
+
+# Power and rate of mutation for bias in nodes.
+bias_mutate_power = 0.5
+bias_mutate_rate = 0.7
+
+# Probability of replacing the bias value during mutation.
+bias_replace_rate = 0.1
+
+# Compatibility coefficient for disjoint genes in genome compatibility calculation.
+compatibility_disjoint_coefficient = 1.0
+
+# Compatibility coefficient for weight differences in genome compatibility calculation.
+compatibility_weight_coefficient = 0.5
+
+# Probability of adding a new connection gene during mutation.
+conn_add_prob = 0.5
+
+# Probability of deleting an existing connection gene during mutation.
+conn_delete_prob = 0.5
+
+# Default value for enabling a new connection gene.
+enabled_default = True
+
+# Probability of mutating the enabled status of a connection gene.
+enabled_mutate_rate = 0.01
+
+# Whether to enforce feed-forward connections in the network.
+feed_forward = True
+
+# Method for initializing connections in the genome.
+initial_connection = full
+
+# Probability of adding a new node gene during mutation.
+node_add_prob = 0.2
+
+# Probability of deleting an existing node gene during mutation.
+node_delete_prob = 0.2
+
+# Number of hidden nodes in the neural network (excluding input and output nodes).
+num_hidden = 0
+
+# Number of input nodes in the neural network.
+num_inputs = 3
+
+# Number of output nodes in the neural network.
+num_outputs = 1
+
+# Initial mean value for node response.
+response_init_mean = 1.0
+
+# Initial standard deviation value for node response.
+response_init_stdev = 0.0
+
+# Maximum and minimum allowable values for node response.
+response_max_value = 30.0
+response_min_value = -30.0
+
+# Power and rate of mutation for node response.
+response_mutate_power = 0.0
+response_mutate_rate = 0.0
+
+# Probability of replacing the node response value during mutation.
+response_replace_rate = 0.0
+
+# Initial mean value for connection weights.
+weight_init_mean = 0.0
+
+# Initial standard deviation value for connection weights.
+weight_init_stdev = 1.0
+
+# Maximum and minimum allowable values for connection weights.
+weight_max_value = 30
+
+# Maximum and minimum allowable values for connection weights.
+weight_min_value = -30
+
+# Power and rate of mutation for connection weights.
+weight_mutate_power = 0.5
+weight_mutate_rate = 0.8
+
+# Probability of replacing the connection weight value during mutation.
+weight_replace_rate = 0.1
+
+[DefaultSpeciesSet]
+# Threshold value for compatibility used to assign genomes to species.
+compatibility_threshold = 3.0
+
+[DefaultStagnation]
+# Fitness function used for species stagnation.
+species_fitness_func = max
+
+# Maximum number of generations species can remain stagnant before being removed.
+max_stagnation = 20
+
+# Number of species that will be preserved without changes.
+species_elitism = 2
+
+[DefaultReproduction]
+# Number of top-performing genomes to be preserved (elites).
+elitism = 2
+
+# Proportion of species genomes that will survive for the next generation.
+survival_threshold = 0.2
