@@ -56,7 +56,7 @@ Contributions to the AI-Powered Flappy Bird project are welcome! If you want to 
 5. Create a pull request to merge your changes into the main repository.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 The implementation of the NEAT algorithm in this project is based on the neat-python library developed by [CodeReclaimers](https://github.com/CodeReclaimers/neat-python).
