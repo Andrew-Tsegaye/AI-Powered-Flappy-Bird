@@ -66,8 +66,8 @@ Special thanks to CodeReclaimers for their contribution to the NEAT algorithm an
 ## Contact
 If you have any questions or suggestions, feel free to contact the project owner:
 
-Name: Andrew Tsegaye
-Email: andrewtsegaye7@gmail.com
-GitHub: https://github.com/Andrew-Tsegaye
+Name: Andrew Tsegaye <br/>
+Email: andrewtsegaye7@gmail.com <br/>
+GitHub: https://github.com/Andrew-Tsegaye <br/>
 
 Remember to customize the README with your project-specific details, such as a more detailed explanation of how the NEAT algorithm is used, the game controls, and any additional features or improvements you've made to the game.
