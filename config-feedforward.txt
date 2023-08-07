@@ -6,7 +6,7 @@ fitness_criterion = max
 fitness_threshold = 100
 
 # The number of individuals in each population (generation).
-pop_size = 100
+pop_size = 50
 
 # If True, the population will not be reset after extinction, allowing new innovations.
 reset_on_extinction = False
