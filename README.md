@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
-- [Introduction](#Introduction)
-- [Features](#Features)
-- [Getting Started](#Getting-Started)
-- [How It Works](#How-It-Works)
-- [Contributing](#Contributing)
-- [Acknowledgments](#Acknowledgments)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
