@@ -2,6 +2,15 @@
 
 ![screen_shot](https://i.imgur.com/d9EuO7f.jpg)
 
+## Table of Contents
+
+- [Introduction](#Introduction)
+- [Features](#Features)
+- [Getting Started](#Getting-Started)
+- [How It Works](#How-It-Works)
+- [Contributing](#Contributing)
+- [Acknowledgments](#Acknowledgments)
+
 ## Introduction
 
 > The repository `AI-Powered-Flappy-Bird` is a project that showcases an implementation of an AI (Artificial Intelligence) algorithm playing the famous Flappy Bird game. The main focus of this project is to demonstrate how the NEAT (NeuroEvolution of Augmenting Topologies) algorithm can be utilized to evolve neural networks that control the behavior of the birds in the game.
